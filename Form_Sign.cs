@@ -64,5 +64,16 @@ namespace Habits
             show.Show();
             show.Closed += (o, ee) => this.Close();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            textBox3.Visible = true;
+            textBox3.Focus();
+        }
     }
 }

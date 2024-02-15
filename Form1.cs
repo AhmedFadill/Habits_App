@@ -30,7 +30,7 @@ namespace Habits
             textBox1.Focus();
         }
 
-        public void Check_account(string email, string password)
+        public void Check_account(string email, string password)//دالة اختبار الحساب والرمز هل موجودة في قاعدة البيانات او لا
         {
             SqlConnection con = new SqlConnection();
             string server_Name = @"DESKTOP-CGFQ02E\SQLEXPRESS";
@@ -70,6 +70,11 @@ namespace Habits
             Form_Sign show = new Form_Sign();
             show.Show();
             show.Closed += (o, ee) => this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
