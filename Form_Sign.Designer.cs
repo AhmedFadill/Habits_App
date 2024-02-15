@@ -1,6 +1,6 @@
 ﻿namespace Habits
 {
-    partial class Form1
+    partial class Form_Sign
     {
         /// <summary>
         /// Required designer variable.
@@ -30,11 +30,14 @@
         {
             this.textBox_email = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -47,10 +50,10 @@
             this.textBox_email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(226)))), ((int)(((byte)(231)))));
             this.textBox_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_email.Font = new System.Drawing.Font("Tahoma", 14F);
-            this.textBox_email.Location = new System.Drawing.Point(613, 227);
+            this.textBox_email.Location = new System.Drawing.Point(107, 130);
             this.textBox_email.Name = "textBox_email";
             this.textBox_email.Size = new System.Drawing.Size(402, 23);
-            this.textBox_email.TabIndex = 8;
+            this.textBox_email.TabIndex = 9;
             this.textBox_email.Visible = false;
             // 
             // textBox1
@@ -58,29 +61,54 @@
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(226)))), ((int)(((byte)(231)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Tahoma", 14F);
-            this.textBox1.Location = new System.Drawing.Point(613, 317);
+            this.textBox1.Location = new System.Drawing.Point(107, 222);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(402, 23);
-            this.textBox1.TabIndex = 9;
+            this.textBox1.TabIndex = 10;
             this.textBox1.Visible = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(226)))), ((int)(((byte)(231)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.textBox2.Location = new System.Drawing.Point(107, 306);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(402, 23);
+            this.textBox2.TabIndex = 11;
+            this.textBox2.Visible = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
+            this.pictureBox6.Image = global::Habits.Properties.Resources.signup;
+            this.pictureBox6.Location = new System.Drawing.Point(364, 528);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(42, 24);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Habits.Properties.Resources.signin;
-            this.pictureBox5.Location = new System.Drawing.Point(831, 501);
+            this.pictureBox5.BackColor = System.Drawing.Color.White;
+            this.pictureBox5.Image = global::Habits.Properties.Resources.butonS;
+            this.pictureBox5.Location = new System.Drawing.Point(89, 432);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(61, 22);
+            this.pictureBox5.Size = new System.Drawing.Size(448, 66);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Habits.Properties.Resources.boo1;
-            this.pictureBox4.Location = new System.Drawing.Point(588, 379);
+            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.Image = global::Habits.Properties.Resources.password;
+            this.pictureBox4.Location = new System.Drawing.Point(89, 276);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(446, 73);
+            this.pictureBox4.Size = new System.Drawing.Size(448, 66);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -88,10 +116,11 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Habits.Properties.Resources.password;
-            this.pictureBox3.Location = new System.Drawing.Point(588, 281);
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.Image = global::Habits.Properties.Resources.email;
+            this.pictureBox3.Location = new System.Drawing.Point(89, 192);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(446, 73);
+            this.pictureBox3.Size = new System.Drawing.Size(448, 66);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -99,10 +128,11 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Habits.Properties.Resources.email;
-            this.pictureBox2.Location = new System.Drawing.Point(588, 193);
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.Image = global::Habits.Properties.Resources.name;
+            this.pictureBox2.Location = new System.Drawing.Point(89, 99);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(446, 73);
+            this.pictureBox2.Size = new System.Drawing.Size(448, 66);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -111,7 +141,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Habits.Properties.Resources.log;
+            this.pictureBox1.Image = global::Habits.Properties.Resources.image_2024_02_14_19_06_08;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1125, 634);
@@ -119,23 +149,24 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // Form_Sign
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1125, 634);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox_email);
-            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Name = "Form_Sign";
+            this.Text = "Form_Sign";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -152,9 +183,10 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TextBox textBox_email;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
-
